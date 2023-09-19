@@ -1,0 +1,66 @@
+/* Search bar container */
+.search-container {
+  text-align: center;
+  margin: 40px auto;
+}
+
+/* Search input field and button */
+#searchInput {
+  padding: 15px;
+  width: 60%;
+}
+
+#searchInput:focus {
+  outline: none; /* Remove the default focus outline */
+}
+
+#searchInput,
+button {
+  font-size: 16px;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: teal;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: darkcyan;
+}
+
+/* Apply a border to all table cells */
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+table,
+th,
+td {
+  border: 1px solid black;
+}
+
+/* Style table header */
+th {
+  background-color: #f2f2f2; /* Light gray background */
+}
+
+/* Style alternate rows with teal background */
+tr:nth-child(even) {
+  background-color: teal;
+  color: white; /* Text color for contrast */
+}
+
+/* Style table cells (optional) */
+td {
+  padding: 8px; /* Add padding to cells for spacing */
+  text-align: left; /* Align cell content to the left */
+}
+
+/* Hover effect for table rows */
+tr:hover {
+  background-color: #ccc;
+}
